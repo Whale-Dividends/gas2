@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.headerdiv{
+   width:100% ;
+    height: 70px;
+    background-color: darkblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    
+
+ 
+}
+.container{
+ width: 100%;
+ height: 100vh;  
+}
+.logodiv img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px; 
+    margin-left: 10px; 
+} 
+ .welcomediv{
+    text-align: center;
+margin-top: 100px;
+    width: 100%;
+color: darkgray;
+}
+.inputdiv{
+    display: grid;
+  justify-self: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.inputdiv .lpgdiv{
+    display: block;
+    margin:10px ;
+    background-color: navy;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-family: sans-serif;
+    width: 210px;
+    text-align: center;  
+    justify-self: center;
+}
+.lpgdiv:hover{
+    color: cyan;
+}
+.lpgform{
+    background-color: skyblue;
+    width: 350px;
+    padding: 10px;
+    position: relative;
+    height: 150px;
+    border-radius: 10px;
+    justify-self: center;
+    margin: 5px;
+   
+}
+.lpgtra{
+    transition: 300s;
+animation:animate ;
+
+    background-color: lightblue;
+}
+@keyframes animate{
+    100%{
+        background-color: rgb(60, 251, 213);
+    }
+}
+.lpgform input{
+    width: 300px;
+    display: block;
+    justify-self: center;
+    margin: 10px;
+    outline: none;
+    padding: 5px;
+}
+.lpgform h3{
+    text-align: center;
+}
+.lpgform button{
+    justify-self: center;
+    background-color: navy;
+    float: right;
+    margin-right: 70px;
+    width: 100px;
+    margin-top: 5px;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    border: none;
+}
+.lpgform button a{
+color: white;
+text-decoration: none;
+}
+input::placeholder{
+  padding-left: 5px;
+}
+.lpgform button a:hover{
+    color: cyan;
+    
+    }
+.sreengenerate{
+    background-color: skyblue;
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+.uploaddiv{
+    width: 120px;
+}
+.uploaddiv h6{
+    color: black;
+}
+.files{
+   justify-self: center;
+}
+ .generate{
+    width: 160px;
+    background-color: navy; 
+    border-radius: 6px; 
+    text-align: center;
+    padding-top: 4px;
+}
+.generate p{
+    color: white;
+   text-transform: capitalize;
+
+   font-size: 20px;  
+   border: none;
+   outline: none;
+}
+.generate a:hover{
+    color: cyan;
+}
+.footerdiv,.footerdivup{ 
+    background-color: navy;
+    width: 100%;
+    height: 170px; 
+}
+.footerdivup{
+    position: absolute;
+    bottom: 0;
+}
+.addmingform{
+    width: 300px;
+   justify-self: center;
+    height: 100px;
+    justify-content: center;
+    padding-top: 40px;
+    margin-top: 30vh;
+    box-shadow: 5px 2px 5px black;
+    border: 1px solid black;
+}
+.admininput{
+    width: 220px;
+    padding: 5px;
+}
+.addmingform input,button{
+    justify-self: center;
+    display: block;
+    outline: none;
+}
+.addmingform button{
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+    width: 100px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: navy;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.addmingform button:hover{
+    color: cyan;
+
+}
+.addmingform button:hover{
+    color: cyan;
+    
+}
+.availablediv{
+    width: 300px;
+    height: 150px;
+   
+    justify-self: center;
+    margin-top: 150px;
+    padding: 10px;
+    box-shadow: 0px 0px 3px black;
+    background-color: navy;
+    position: relative;
+   
+ 
+}
+.gasdiv{
+    display: flex;
+    background-color: lightblue;
+    justify-content: space-around;
+    padding: 10px;
+   
+    
+
+}
+.gasdiv button{
+    width: 80px;
+}
+.gasdiv p{
+    color: white;
+}
+.yes{
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 20px;
+    
+}
+.no{
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.error{
+    text-align: center;
+    margin-top: 120px;
+    position: absolute;
+    width: 100%;
+    color: cyan;
+font-family: sans-serif;
+}
+.updatetext{
+    text-align: center;
+  
+    
+}
+.updatediv{
+    position: absolute;
+    width: 100%;
+    margin-top: 100px;
+font-family: sans-serif;    
+}
+.producta{
+  float: right;
+    cursor: pointer;
+    background-color: cyan;
+    padding: 6px;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-right: 7px;
+    font-family: sans-serif;
+}
+.availablproducediv{
+   margin-top: 100px;
+   width: 300px;
+   height: 100px;
+    background-color: navy;
+    padding: 10px;
+  justify-self: center;
+}
+.contentdivg{
+    display: inline-flex;
+    background-color: cyan;
+    width: 100%;
+    justify-content: space-around;
+  margin: 10px auto;
+ 
+}
+
+
+.contentdivg button{
+    width: 100px;
+    font-size: 20px;
+    background: none;
+    border: none;
+}
+.contentdivg h3{
+    font-family: sans-serif;
+    color: black;
+    padding: 5px;
+    
+}
+.contentdivg button{
+    color: yellow;
+    font-size: 25px;
+}
+#yegas,#yegasno,#fuelno2{
+    color: yellow;
+}
+.updates{
+    position: absolute;
+    left: 200px;
+    bottom: 23px;
+    width: 100px;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    background-color: lightblue;
+    color: black;
+    border-radius: 10px;
+
+}
+.updates:hover{
+    color: cyan;
+}
+.availablediv input{
+    height: 20px;
+    outline: none;
+    width: 150px;
+    font-family: sans-serif;
+    text-align: center;
+    color: navy;
+    font-size: 20px;
+    font-family: sans-serif;
+  
+
+}
+.availablediv p{
+    color: black;
+    font-family: sans-serif;
+}
+.con2{
+    width: 300px;
+    background-color: red;
+   padding: 0;
+   position: absolute;
+    position: relative;
+}
+.formdivs{
+    position: relative;
+    
+}
+.formdivs{
+    width: 100%;
+   justify-items: center;
+    display: grid;
+}
+#form1,#form2{
+    position: absolute;
+    justify-self: center;
+    
+}
+#generate{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+
+}
+#imagess{
+    pointer-events: none;
+}
+.disabled{
+    pointer-events: none;
+}
